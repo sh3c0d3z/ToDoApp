@@ -1,0 +1,114 @@
+/* Resetting default styles for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply Pacifico font throughout the entire app */
+body {
+  font-family: 'Pacifico', cursive; /* Cute cursive font everywhere */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff0f6; /* Light pink background */
+}
+
+/* Main wrapper to center the content with some padding and rounded corners */
+.main-container {
+  background-color: #ffe6f1; /* Soft pink */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Form styling */
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ff99cc; /* Soft pink border */
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive; /* Cute font in input fields */
+}
+
+/* Button styling */
+button {
+  background-color: #ff66b2; /* Girly pink button */
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Pacifico', cursive; /* Cute font for buttons */
+}
+
+button:disabled {
+  background-color: #ffcce6; /* Light pink for disabled button */
+  cursor: not-allowed;
+}
+
+/* Small text for warnings or validation messages */
+small {
+  color: #cc0066; /* Stronger pink for warnings */
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive; /* Cute font for warnings */
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffe6f1; /* Light pink for list items */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive; /* Cute font for list items */
+}
+
+/* Styling for task content */
+label {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Edit and Delete buttons */
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ff3399; /* Bold pink delete button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button.edit-btn {
+  background-color: #ff99cc; /* Soft pink edit button */
+}
+
+h4 {
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #cc0066; /* Strong pink for headings */
+}
